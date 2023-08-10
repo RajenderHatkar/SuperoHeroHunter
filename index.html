@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SuperHeroHunter</title>
+    <script src="https://kit.fontawesome.com/6288969100.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="text-center">SuperHeroHunter</h1>
+        <div class="form-group mt-4" id="search-item">
+            
+            <input type="text" id="input"placeholder="search marvel here" oninput="herohunt()">
+            <button  id="btn-sub" onclick="herohunt()" type="button"><i class="fa-brands fa-searchengin"></i></button>
+            <a href="favoritehero.html" id="btn-fav">Favorites</a>
+        </div>
+        <div class="row mt-4" id="heroResult"></div>
+    </div>
+
+ 
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.0.0/crypto-js.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>

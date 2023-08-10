@@ -1,0 +1,183 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    font-weight: 600;
+    background-color: rgb(14, 13, 13) !important;
+    color: rgb(199, 88, 14);
+}
+/*Home page styling*/
+#search-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#input{
+    background-color: antiquewhite;
+    color: black;
+    position: relative;
+    width: 70%;
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    outline: none;
+    overflow:visible;
+    border-radius:20px;
+
+}
+#btn-sub{
+    background-color: rgb(202, 202, 23);
+    height: 40px;
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}
+#btn-sub:hover{
+    background-color: color-mix(in srgb, rgb(226, 103, 9) 80%, rgb(192, 17, 17) 20%);
+    
+}
+#btn-fav{
+    background-color: rgb(223, 29, 11);
+    text-decoration: none;
+    color: rgb(221, 219, 231);
+    height: 40px;
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+}
+#btn-fav:hover{
+    background-color:rgb(15, 211, 217)
+    
+}
+#heroResult{
+    padding: 10px 30px;
+    margin: 10px 30px;
+    display: grid;
+    width:auto;
+}
+.hero-card{
+    background-color: darkgrey;
+    display: flex;
+    width:60%;
+    text-align: center;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+.hero-card img{
+    border-radius: 10px;
+}
+.hero-card button{
+    width: auto;
+    height: 40px;
+    outline: none;
+    border: none;
+    font-weight: 600;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    border-radius:10px;
+}
+.hero-card button:hover{
+    background-color: rgb(236, 57, 7);
+}
+/*.pop-up{
+    background-color: brown;
+}*/
+h3{
+    color:#bd2130;
+    font-size: medium;
+    font-weight: 600;
+    margin: 10px;
+    padding: 10px;
+}
+/* favorite page styling*/
+.fav-page{
+    margin: 0px;
+    padding: 0px 10px;
+    background-color: rgb(18, 18, 18);
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    top:0%;
+    z-index: 1;
+}
+
+.fav-page h1{
+    margin: 10px;
+    color: rgb(237, 226, 14);
+}
+#favoriteList{
+    position: relative;
+    padding: 10px;
+    margin: 10px;
+    display: grid;
+    justify-content: center;
+    top:70px;
+
+}
+.fav-card{
+    background-color: darkgrey;
+    display: flex;
+    width:100%;
+    text-align: center;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+.fav-card img{
+    border-radius: 10px;
+}
+.fav-card button{
+    width: auto;
+    height: 40px;
+    outline: none;
+    border: none;
+    font-weight: 600;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    border-radius:10px;
+}
+.fav-card button:hover{
+    background-color: rgb(236, 57, 7);
+}
+/*Info Page*/
+#superheroDetails{
+    
+    display: flex;
+    background-color: aliceblue;
+    padding: 20px;
+    position: relative;
+    margin: 10px;
+    top:260px;
+    border-radius: 20px;
+}
+#superheroDetails img{
+    padding: 10px;
+    border-radius: 20px;
+}
+.super-card{
+    display: grid;
+    background-color: darkgrey;
+    width:100%;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+}
+.super-card span{
+    padding: 10px;
+}
+.super-card p{
+    color: rgb(0, 0, 0);
+    padding:10px;
+
+}
